@@ -79,7 +79,7 @@ wopen()
 
     echo "$@">> $WOPEN_HISTORY_FILE
 
-    if [ $alias]; then
+    if [ $alias ]; then
         echo "$alias=$@" >> $WOPEN_CONFIG_FILE
     fi
 }
