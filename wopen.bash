@@ -56,7 +56,7 @@ wopen()
         return 1
     fi
 
-    if [ $clear]; then
+    if [ $clear ]; then
         cat /dev/null > $WOPEN_HISTORY_FILE
     fi
 
